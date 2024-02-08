@@ -15,10 +15,12 @@ Feel free to make a PR or suggest changes.
 
 ## Install from Dist:
 
-- Download the "Dist" folder
+- Download this project as a .ZIP
+- Extract the "Dist" folder
 - Navigate to chrome://extensions
 - Select "Load unpacked" from the top right
 - Select the Dist folder
+- Refresh Naruto-Arena and pin the extension if you wish
 
 ## Build it yourself:
 
