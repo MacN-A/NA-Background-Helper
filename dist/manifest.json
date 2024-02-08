@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Naruto Arena Background Helper",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.naruto-arena.site/selection",
+        "https://www.naruto-arena.site/battle"
+      ],
+      "js": ["loadSettings.js"]
+    }
+  ],
+
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://www.naruto-arena.site/selection"],
+  "icons": {
+    "32": "icon.png"
+  }
+}
